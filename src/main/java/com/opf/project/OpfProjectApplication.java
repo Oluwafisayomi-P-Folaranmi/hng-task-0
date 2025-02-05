@@ -13,9 +13,9 @@ public class OpfProjectApplication {
 	}
 
 	@Bean
-	CommandLineRunner commandLineRunner() {
-		return runner -> {
-			System.out.println("Hi");
+	public CommandLineRunner commandLineRunner() {
+		return args -> {
+			System.out.println("Well done, OPF!");
 		};
 	}
 
